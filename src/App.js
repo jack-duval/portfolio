@@ -11,7 +11,7 @@ function App() {
         <h2>
           Software Engineer - Musician - Product Dev
         </h2>
-      </header>
+      </section>
 
       <section className="about-body">
         <h3>
