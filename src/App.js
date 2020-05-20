@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 function App() {
+  // Added comment to test pushing from vscode
   return (
     <div>
       <section className="header">
