@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import ExperienceItem from './experience-item';
+import ExperienceList from './experience-list'
+
 
 function App() {
   // Added comment to test pushing from vscode
@@ -36,109 +39,7 @@ function App() {
         <h3>
           Experience:
         </h3>
-          <ul>
-
-            <li>
-              <h4>Edmit:</h4>
-              <p>
-                Chief of Staff
-              </p>
-              <p>(August 2019 - Present)</p>
-              <p>
-                Duties:
-                <p className="list-indent">
-                  Duties here
-                </p>
-              </p>
-              <p>
-                Responsibilities:
-                <p className="list-indent">
-                  Responsibilities here
-                </p>
-              </p>
-            </li>
-
-            <li>
-              <h4>Edmit:</h4>
-              <p>
-                Software Engineering Intern
-              </p>
-              <p>(May 2019 - August 2019)</p>
-              <p>
-                Duties:
-                <p className="list-indent">
-                  Duties here
-                </p>
-              </p>
-              <p>
-                Responsibilities:
-                <p className="list-indent">
-                  Responsibilities here
-                </p>
-              </p>
-            </li>
-
-            <li>
-              <h4>Apple:</h4>
-              <p>
-                Specialist
-              </p>
-              <p>(February 2020 - Present)</p>
-              <p>
-                Duties:
-                <p className="list-indent">
-                  Duties here
-                </p>
-              </p>
-              <p>
-                Responsibilities:
-                <p className="list-indent">
-                  Responsibilities here
-                </p>
-              </p>
-            </li>
-
-            <li>
-              <h4>Dynamo Fencing Center:</h4>
-              <p>
-                Assistant Coach
-              </p>
-              <p>(August 2018 - Present)</p>
-              <p>
-                Duties:
-                <p className="list-indent">
-                  Duties here
-                </p>
-              </p>
-              <p>
-                Responsibilities:
-                <p className="list-indent">
-                  Responsibilities here
-                </p>
-              </p>
-            </li>
-
-            <li>
-              <h4>Northeastern University:</h4>
-              <p>
-                Student Affairs Technology Specialist
-              </p>
-              <p>(August 2018 - May 2019)</p>
-              <p>
-                Duties:
-                <p className="list-indent">
-                  Duties here
-                </p>
-              </p>
-              <p>
-                Responsibilities:
-                <p className="list-indent">
-                  Responsibilities here
-                </p>
-              </p>
-            </li>
-
-          </ul>
+        <ExperienceList />
       </section>
 
       <section className="projects-body">
