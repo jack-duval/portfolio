@@ -5,11 +5,7 @@ class ExperienceItem extends React.Component {
     render() {
         return (
             <div>
-            <li>
-                <h4>{this.props.employer}:</h4>
-                <p>
-                    {this.props.role}
-                </p>
+                <h4>{this.props.employer}: {this.props.role}</h4>
                 <p>({this.props.startDate} - {this.props.endDate})</p>
                 <p>
                     Duties:
@@ -23,7 +19,6 @@ class ExperienceItem extends React.Component {
                             {this.props.responsibilities}
                         </p>
                   </p>
-            </li>
             </div>
 
         );

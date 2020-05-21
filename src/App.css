@@ -20,6 +20,15 @@
   width: 45rem;
 }
 
+.experience-layout {
+  padding-top: 1rem;
+  padding-left: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 20rem;
+}
+
 .projects-body {
   text-align: left;
   padding-top: 2rem;

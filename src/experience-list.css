@@ -1,0 +1,13 @@
+.experience-layout {
+    padding-top: 1rem;
+    text-align: center;
+    padding-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20rem;
+  }
+
+.section-title {
+    text-align: center;
+}

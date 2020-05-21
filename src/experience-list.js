@@ -1,11 +1,13 @@
 import React from 'react';
-import experienceItem from './experience-item.js';
-import Table from 'react-bootstrap/Table';
+import ExperienceItem from './experience-item.js';
 
 class ExperienceList extends React.Component {
     render() {
         return (
-            <ul>
+            <div className="experience-layout">
+                <h3 className="section-title">
+                    Experience:
+                </h3>
                 <ExperienceItem 
                     employer="Edmit"
                     role="Chief of Staff"
@@ -41,8 +43,7 @@ class ExperienceList extends React.Component {
                     duties="Help faculty etc."
                     responsibilities="Work hard."
                 />
-            </ul>
-
+            </div>
         );
     }
 }
