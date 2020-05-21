@@ -1,10 +1,12 @@
 import React from 'react';
-import ExperienceItem from './experience-item.js';
+import ExperienceItem from '../experience-item/experience-item.js';
+import AppleLogo from '../imgs/Apple.jpeg';
 
 class ExperienceList extends React.Component {
     render() {
         return (
             <div className="experience-layout">
+                
                 <h3 className="section-title">
                     Experience:
                 </h3>

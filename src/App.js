@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ExperienceList from './experience-list'
+import ExperienceList from './experience-list/experience-list'
 
 
 function App() {
@@ -33,10 +33,11 @@ function App() {
           samples, check out the "Projects" section below.
         </p>
       </section>
-
       <div>
         <ExperienceList className="experience-layout" />
       </div>
+
+
 
       <section className="projects-body">
 
